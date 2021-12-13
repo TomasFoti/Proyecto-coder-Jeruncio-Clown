@@ -128,6 +128,74 @@
   background-color: #870640;
   color: #ffffff;
   padding: 2rem 5rem 3rem; }
+  .footer__conversemos__titulo__texto {
+    font-size: 2rem;
+    font-weight: 700; }
+  .footer__conversemos__parrafo {
+    padding-left: 1rem; }
+    .footer__conversemos__parrafo__texto {
+      font-size: 1.2rem; }
+  .footer__conversemos__parrafo2 {
+    padding-left: 1rem; }
+    .footer__conversemos__parrafo2__texto {
+      font-size: 1.2rem;
+      font-weight: 700; }
+  .footer__conversemos__tituloRedes {
+    padding-left: 1rem; }
+    .footer__conversemos__tituloRedes__texto {
+      font-size: 1.2rem; }
+  .footer__conversemos__redes {
+    display: flex;
+    width: 22rem;
+    justify-content: space-around; }
+    .footer__conversemos__redes__links {
+      background-color: #d8ab27;
+      border-radius: 3rem;
+      padding: 0.6rem;
+      display: flex;
+      text-decoration: none; }
+      .footer__conversemos__redes__links__img {
+        color: #ffffff;
+        font-size: 1.4rem; }
+  .footer__formIndex {
+    margin-top: 2.5rem; }
+    .footer__formIndex__nombre__label {
+      font-size: 1.2rem; }
+    .footer__formIndex__email__label {
+      font-size: 1.2rem; }
+    .footer__formIndex__telefono__label {
+      font-size: 1.2rem; }
+    .footer__formIndex__pregunta__texto {
+      font-size: 1.5rem;
+      font-weight: 600; }
+    .footer__formIndex__optionEmail {
+      display: flex;
+      align-items: center;
+      margin-left: 0.8rem; }
+      .footer__formIndex__optionEmail__input {
+        background-color: transparent; }
+      .footer__formIndex__optionEmail__label {
+        font-size: 1.2rem;
+        margin-left: 0.8rem; }
+    .footer__formIndex__optionTelefono {
+      display: flex;
+      align-items: center;
+      margin-left: 0.8rem; }
+      .footer__formIndex__optionTelefono__input {
+        background-color: transparent; }
+      .footer__formIndex__optionTelefono__label {
+        font-size: 1.2rem;
+        margin-left: 0.8rem; }
+    .footer__formIndex__botonSubmit {
+      display: flex;
+      justify-content: flex-end; }
+      .footer__formIndex__botonSubmit__boton {
+        width: 14rem;
+        height: 2.3rem;
+        background-color: #f8cf57;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: 500; }
 
 * {
   margin: 0%;

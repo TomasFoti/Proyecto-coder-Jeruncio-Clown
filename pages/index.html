@@ -11,7 +11,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <title>Home-Jeruncio Clown</title>
+    <script
+      src="https://kit.fontawesome.com/fde59a0dbb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body id="body">
     <!--*******************************HEADER**************************************-->
@@ -183,95 +188,158 @@
     <!--*********************************FOOTER****************************************-->
     <footer id="footer" class="footer">
       <div class="row">
-        <div class="col">
-          <h2>¡Conversemos!</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-            mollitia facilis incidunt, laborum dolorum enim? Nostrum dolorem ab
-            repellat id numquam nisi quidem magnam voluptate placeat
-            reprehenderit expedita, hic dolore!
-          </p>
+        <div class="col footer__conversemos">
+          <div class="footer__conversemos__titulo">
+            <h4 class="footer__conversemos__titulo__texto">¡Conversemos!</h4>
+          </div>
+          <div class="footer__conversemos__parrafo">
+            <p class="footer__conversemos__parrafo__texto">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+              mollitia facilis incidunt, laborum dolorum enim? Nostrum dolorem
+              ab repellat id numquam nisi quidem magnam voluptate placeat
+              reprehenderit expedita, hic dolore!
+            </p>
+          </div>
+          <div class="footer__conversemos__parrafo2">
+            <p class="footer__conversemos__parrafo2__texto">
+              ¡Me encataría hablar contigo!
+            </p>
+          </div>
+          <div class="footer__conversemos__tituloRedes">
+            <p class="footer__conversemos__tituloRedes__texto">
+              Si quieres, échale un vistazo a mis redes sociales:
+            </p>
+          </div>
+          <div class="footer__conversemos__redes">
+            <a href="" class="footer__conversemos__redes__links">
+              <i
+                class="fab fa-facebook footer__conversemos__redes__links__img"
+              ></i
+            ></a>
 
-          <p>Estas son mis redes sociales:</p>
-          <a href=""><img src="../imagenes/facebook.png" alt="" /></a>
-          <a href=""><img src="../imagenes/instagram.png" alt="" /></a>
-          <a href=""><img src="../imagenes/whatsapp.png" alt="" /></a>
-          <a href=""><img src="../imagenes/twitter.png" alt="" /></a>
+            <a href="" class="footer__conversemos__redes__links"
+              ><i
+                class="fab fa-instagram footer__conversemos__redes__links__img"
+              ></i
+            ></a>
+            <a href="" class="footer__conversemos__redes__links"
+              ><i
+                class="fab fa-twitter footer__conversemos__redes__links__img"
+              ></i
+            ></a>
+            <a href="" class="footer__conversemos__redes__links"
+              ><i
+                class="fab fa-youtube footer__conversemos__redes__links__img"
+              ></i
+            ></a>
+            <a href="" class="footer__conversemos__redes__links"
+              ><i
+                class="fab fa-whatsapp footer__conversemos__redes__links__img"
+              ></i
+            ></a>
+          </div>
         </div>
         <div class="col">
-          <form action="">
-            <div>
-              <label for="input-nombre">Nombre</label>
+          <form action="" class="footer__formIndex">
+            <div class="footer__formIndex__nombre">
+              <label for="input-nombre" class="footer__formIndex__nombre__label"
+                >Nombre</label
+              >
               <input
                 id="input-nombre"
                 type="text"
-                class="form-control"
+                class="form-control mt-2"
                 placeholder="Nombre"
                 aria-label="Nombre"
               />
             </div>
-            <div class="row">
-              <div class="col-md-7">
-                <label for="input-email">Email</label>
+            <div class="row mt-3">
+              <div class="col-md-7 footer__formIndex__email">
+                <label for="input-email" class="footer__formIndex__email__label"
+                  >Email</label
+                >
+
                 <input
                   id="input-email"
                   type="email"
-                  class="form-control"
+                  class="form-control mt-2"
                   placeholder="Email"
                   id="inputEmail4"
                 />
               </div>
-              <div class="col-md-5">
-                <label for="input-telefono">Teléfono</label>
+              <div class="col-md-5 footer__formIndex__telefono">
+                <label
+                  for="input-telefono"
+                  class="footer__formIndex__telefono__label"
+                  >Teléfono</label
+                >
                 <input
                   id="input-telefono"
                   type="tel"
-                  class="form-control"
+                  class="form-control mt-2"
                   placeholder="Telefono"
                   aria-label="Telefono"
                 />
               </div>
             </div>
+            <div class="mt-3 footer__formIndex__pregunta">
+              <p class="footer__formIndex__pregunta__texto">
+                ¿Como quieres que me comunique contigo?
+              </p>
+            </div>
 
-            <p>¿Como quieres que me comunique contigo?</p>
-
-            <div class="row">
-              <div class="form-check col-3">
+            <div class="row mb-3">
+              <div class="form-check col-3 footer__formIndex__optionEmail">
                 <input
-                  class="form-check-input"
+                  class="form-check-input footer__formIndex__optionEmail__input"
                   type="radio"
                   name="flexRadioDefault"
                   id="flexRadioDefault1"
                 />
-                <label class="form-check-label" for="flexRadioDefault1">
+                <label
+                  class="form-check-label footer__formIndex__optionEmail__label"
+                  for="flexRadioDefault1"
+                >
                   Email
                 </label>
               </div>
-              <div class="form-check col-3">
+              <div class="form-check col-3 footer__formIndex__optionTelefono">
                 <input
-                  class="form-check-input"
+                  class="
+                    form-check-input
+                    footer__formIndex__optionTelefono__input
+                  "
                   type="radio"
                   name="flexRadioDefault"
                   id="flexRadioDefault2"
-                  checked
                 />
-                <label class="form-check-label" for="flexRadioDefault2">
+                <label
+                  class="
+                    form-check-label
+                    footer__formIndex__optionTelefono__label
+                  "
+                  for="flexRadioDefault2"
+                >
                   Telefono
                 </label>
               </div>
             </div>
 
-            <div class="form-floating">
+            <div class="form-floating footer__formIndex__comentarios">
               <textarea
-                class="form-control"
+                class="form-control footer__formIndex__comentarios__textArea"
                 placeholder="Leave a comment here"
                 id="floatingTextarea2"
                 style="height: 200px"
               ></textarea>
-              <label for="floatingTextarea2">Escribe tu mensaje ahi...</label>
             </div>
-            <div class="float-lg-end">
-              <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="mt-3 footer__formIndex__botonSubmit">
+              <button
+                type="submit"
+                class="footer__formIndex__botonSubmit__boton"
+              >
+                ENVIAR
+              </button>
             </div>
           </form>
         </div>
