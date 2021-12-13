@@ -193,77 +193,87 @@
           </p>
 
           <p>Estas son mis redes sociales:</p>
-          <a href=""><img src="imagenes/facebook.png" alt="" /></a>
-          <a href=""><img src="imagenes/instagram.png" alt="" /></a>
-          <a href=""><img src="imagenes/whatsapp.png" alt="" /></a>
-          <a href=""><img src="imagenes/twitter.png" alt="" /></a>
+          <a href=""><img src="../imagenes/facebook.png" alt="" /></a>
+          <a href=""><img src="../imagenes/instagram.png" alt="" /></a>
+          <a href=""><img src="../imagenes/whatsapp.png" alt="" /></a>
+          <a href=""><img src="../imagenes/twitter.png" alt="" /></a>
         </div>
         <div class="col">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Nombre"
-            aria-label="Nombre"
-          />
-          <div class="row">
-            <div class="col-md-7">
+          <form action="">
+            <div>
+              <label for="input-nombre">Nombre</label>
               <input
-                type="email"
+                id="input-nombre"
+                type="text"
                 class="form-control"
-                placeholder="Email"
-                id="inputEmail4"
+                placeholder="Nombre"
+                aria-label="Nombre"
               />
             </div>
-            <div class="col-md-5">
-              <input
-                type="tel"
+            <div class="row">
+              <div class="col-md-7">
+                <label for="input-email">Email</label>
+                <input
+                  id="input-email"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  id="inputEmail4"
+                />
+              </div>
+              <div class="col-md-5">
+                <label for="input-telefono">Teléfono</label>
+                <input
+                  id="input-telefono"
+                  type="tel"
+                  class="form-control"
+                  placeholder="Telefono"
+                  aria-label="Telefono"
+                />
+              </div>
+            </div>
+
+            <p>¿Como quieres que me comunique contigo?</p>
+
+            <div class="row">
+              <div class="form-check col-3">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Email
+                </label>
+              </div>
+              <div class="form-check col-3">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Telefono
+                </label>
+              </div>
+            </div>
+
+            <div class="form-floating">
+              <textarea
                 class="form-control"
-                placeholder="Telefono"
-                aria-label="Telefono"
-              />
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 200px"
+              ></textarea>
+              <label for="floatingTextarea2">Escribe tu mensaje ahi...</label>
             </div>
-          </div>
-
-          <p>¿Como quieres que me comunique contigo?</p>
-
-          <div class="row">
-            <div class="form-check col-3">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="flexRadioDefault1"
-              />
-              <label class="form-check-label" for="flexRadioDefault1">
-                Email
-              </label>
+            <div class="float-lg-end">
+              <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-            <div class="form-check col-3">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="flexRadioDefault2"
-                checked
-              />
-              <label class="form-check-label" for="flexRadioDefault2">
-                Telefono
-              </label>
-            </div>
-          </div>
-
-          <div class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Leave a comment here"
-              id="floatingTextarea2"
-              style="height: 200px"
-            ></textarea>
-            <label for="floatingTextarea2">Escribe tu mensaje ahi...</label>
-          </div>
-          <div class="float-lg-end">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>

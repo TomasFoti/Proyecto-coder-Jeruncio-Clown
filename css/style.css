@@ -124,8 +124,10 @@
       color: #ffffff; }
 
 .footer {
+  display: flex;
   background-color: #870640;
-  color: #ffffff; }
+  color: #ffffff;
+  padding: 2rem 5rem 3rem; }
 
 * {
   margin: 0%;
