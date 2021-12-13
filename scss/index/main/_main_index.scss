@@ -90,6 +90,10 @@
         font-weight: 500;
         color: $bordo-claro;
       }
+      &__boton:hover {
+        background-color: $bordo-claro;
+        color: $blanco;
+      }
     }
   }
 }

@@ -119,6 +119,9 @@
       border-radius: 0.5rem;
       font-weight: 500;
       color: #c3457e; }
+    .main__agenda__col2__boton:hover {
+      background-color: #c3457e;
+      color: #ffffff; }
 
 .footer {
   background-color: #870640;
