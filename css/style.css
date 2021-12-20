@@ -233,6 +233,7 @@
       font-weight: 600; }
 
 .mainEspectaculos__animacion {
+  margin-top: 4rem;
   padding: 0 5rem 2rem; }
   .mainEspectaculos__animacion__row1 {
     display: flex;
@@ -277,7 +278,8 @@
       font-weight: 600; }
 
 .mainEspectaculos__presentaciones {
-  padding: 0 5rem; }
+  padding: 0 5rem;
+  margin-top: 4rem; }
   .mainEspectaculos__presentaciones__row1 {
     display: flex;
     justify-content: space-between; }
