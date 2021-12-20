@@ -1,10 +1,11 @@
 @import "dinamics/variables";
-@import "index/header/header_index.scss";
-@import "index/main/main_index.scss";
-@import "index/footer/footer_index.scss";
-
+@import "index/header_index.scss";
+@import "index/main_index.scss";
+@import "index/footer_index.scss";
+@import "headers.scss";
+@import "espectaculos/main_espectaculos.scss";
+@import "espectaculos/footer_espectaculos.scss";
 //***********RESETS****************************
-
 * {
   margin: 0%;
   padding: 0%;
