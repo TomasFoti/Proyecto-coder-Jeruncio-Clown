@@ -241,7 +241,6 @@
     .mainEspectaculos__animacion__row1__parrafo {
       width: 55%; }
     .mainEspectaculos__animacion__row1__img {
-      border: 0.1rem solid black;
       width: 40%;
       height: 20rem;
       border-radius: 0.5rem; }
@@ -286,7 +285,6 @@
     .mainEspectaculos__presentaciones__row1__parrafo {
       width: 55%; }
     .mainEspectaculos__presentaciones__row1__img {
-      border: 0.1rem solid black;
       width: 40%;
       height: 20rem;
       border-radius: 0.5rem; }
