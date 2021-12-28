@@ -14,8 +14,14 @@
     &__boton {
       border: none;
       background-color: transparent;
-      &--text {
+      &--textOscuro {
         color: $bordo-claro;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.3rem;
+      }
+      &--textClaro {
+        color: $amarillo;
         text-decoration: none;
         font-weight: 500;
         font-size: 1.3rem;

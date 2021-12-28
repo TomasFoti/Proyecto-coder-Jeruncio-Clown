@@ -1,0 +1,45 @@
+.footerContacto {
+  padding: 5rem 5rem;
+  background: transparent;
+  &__row {
+    display: flex;
+  }
+  &__parrafo {
+    display: flex;
+    &__text {
+      color: $bordo-claro;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+  }
+  &__col1 {
+    width: 55%;
+    &__formContacto {
+      &__btns {
+        display: flex;
+        justify-content: flex-end;
+        &__btnSend {
+          width: 15rem;
+          height: 2.5rem;
+          background-color: $bordo-claro;
+          border-radius: 0.5rem;
+          font-weight: 400;
+          color: $blanco;
+          border: none;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+    }
+  }
+  &__col2 {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    &__contacto {
+      width: 90%;
+      border-radius: 1rem;
+      padding: 2rem;
+      background-color: $blanco;
+    }
+  }
+}

@@ -214,8 +214,13 @@
     .headers__navBar__boton {
       border: none;
       background-color: transparent; }
-      .headers__navBar__boton--text {
+      .headers__navBar__boton--textOscuro {
         color: #c3457e;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.3rem; }
+      .headers__navBar__boton--textClaro {
+        color: #f8cf57;
         text-decoration: none;
         font-weight: 500;
         font-size: 1.3rem; }
@@ -329,6 +334,55 @@
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 3rem; }
+
+.bodyContacto {
+  background: linear-gradient(#5b5b5b, #ffd4e8 40%);
+  height: 100%; }
+
+.mainContacto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 5rem;
+  height: 30rem; }
+  .mainContacto__text {
+    font-size: 3rem;
+    font-weight: 600; }
+
+.footerContacto {
+  padding: 5rem 5rem;
+  background: transparent; }
+  .footerContacto__row {
+    display: flex; }
+  .footerContacto__parrafo {
+    display: flex; }
+    .footerContacto__parrafo__text {
+      color: #c3457e;
+      font-size: 2.5rem;
+      font-weight: 600; }
+  .footerContacto__col1 {
+    width: 55%; }
+    .footerContacto__col1__formContacto__btns {
+      display: flex;
+      justify-content: flex-end; }
+      .footerContacto__col1__formContacto__btns__btnSend {
+        width: 15rem;
+        height: 2.5rem;
+        background-color: #c3457e;
+        border-radius: 0.5rem;
+        font-weight: 400;
+        color: #ffffff;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif; }
+  .footerContacto__col2 {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end; }
+    .footerContacto__col2__contacto {
+      width: 90%;
+      border-radius: 1rem;
+      padding: 2rem;
+      background-color: #ffffff; }
 
 * {
   margin: 0%;
