@@ -13,8 +13,15 @@
     }
   }
   &__col1 {
-    width: 55%;
+    width: 60%;
     &__formContacto {
+      height: 35rem;
+      &__textArea {
+        width: 100%;
+        border: none;
+        height: 14rem;
+        padding: 1rem;
+      }
       &__btns {
         display: flex;
         justify-content: flex-end;
@@ -32,14 +39,56 @@
     }
   }
   &__col2 {
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
     &__contacto {
+      height: 35rem;
       width: 90%;
       border-radius: 1rem;
       padding: 2rem;
       background-color: $blanco;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      &__titulo {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+      &__datos {
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        &--bold {
+          font-weight: 700;
+        }
+      }
+      &__redes {
+        margin-top: 3rem;
+        &__titulo {
+          font-size: 1.5rem;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        }
+        &__links {
+          display: flex;
+          justify-content: space-between;
+          padding-right: 2rem;
+
+          &__link {
+            background-color: $bordo;
+            border-radius: 3rem;
+            padding: 0.6rem;
+            display: flex;
+            text-decoration: none;
+
+            &__img {
+              color: $blanco;
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
     }
   }
 }
