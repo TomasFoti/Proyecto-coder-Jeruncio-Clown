@@ -1,0 +1,34 @@
+.headers {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem;
+  height: 8rem;
+  &__logo {
+    font-size: 1.5rem;
+    border: 0.1rem solid black;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+  &__navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+    &__boton {
+      border: none;
+      background-color: transparent;
+      &--textOscuro {
+        color: $bordo-claro;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.3rem;
+      }
+      &--textClaro {
+        color: $amarillo;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
