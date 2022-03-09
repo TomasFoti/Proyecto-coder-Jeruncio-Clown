@@ -1,0 +1,112 @@
+.footer {
+  display: flex;
+  background-color: $bordo;
+  color: $blanco;
+  padding: 2rem 5rem 3rem;
+  &__conversemos {
+    &__titulo {
+      &__texto {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+    &__parrafo {
+      padding-left: 1rem;
+      &__texto {
+        font-size: 1.2rem;
+      }
+    }
+    &__parrafo2 {
+      padding-left: 1rem;
+      &__texto {
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+    &__tituloRedes {
+      padding-left: 1rem;
+      &__texto {
+        font-size: 1.2rem;
+      }
+    }
+    &__redes {
+      display: flex;
+      width: 22rem;
+      justify-content: space-around;
+
+      &__links {
+        background-color: $amarillo-oscuro;
+        border-radius: 3rem;
+        padding: 0.6rem;
+        display: flex;
+        text-decoration: none;
+
+        &__img {
+          color: $blanco;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  &__formIndex {
+    margin-top: 2.5rem;
+    &__nombre {
+      &__label {
+        font-size: 1.2rem;
+      }
+    }
+    &__email {
+      &__label {
+        font-size: 1.2rem;
+      }
+    }
+    &__telefono {
+      &__label {
+        font-size: 1.2rem;
+      }
+    }
+    &__pregunta {
+      &__texto {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+    }
+    &__optionEmail {
+      display: flex;
+      align-items: center;
+      margin-left: 0.8rem;
+      &__input {
+        background-color: transparent;
+      }
+      &__label {
+        font-size: 1.2rem;
+        margin-left: 0.8rem;
+      }
+    }
+    &__optionTelefono {
+      display: flex;
+      align-items: center;
+      margin-left: 0.8rem;
+      &__input {
+        background-color: transparent;
+      }
+      &__label {
+        font-size: 1.2rem;
+        margin-left: 0.8rem;
+      }
+    }
+
+    &__botonSubmit {
+      display: flex;
+      justify-content: flex-end;
+      &__boton {
+        width: 14rem;
+        height: 2.3rem;
+        background-color: $amarillo;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: 500;
+      }
+    }
+  }
+}
