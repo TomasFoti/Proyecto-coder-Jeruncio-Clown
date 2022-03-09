@@ -593,6 +593,14 @@
   background-color: #f8cf57;
 }
 
+.videos-yt {
+  text-align: center;
+}
+
+.img-tm {
+  width: 335px;
+}
+
 .subtitle {
   margin-top: 20px;
   font-size: 25px;

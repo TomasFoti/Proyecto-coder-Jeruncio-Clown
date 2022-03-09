@@ -9,7 +9,6 @@
     height: 8rem; }
     .header__row1__logo {
       font-size: 1.5rem;
-      border: 0.1rem solid black;
       padding: 0 1rem;
       display: flex;
       align-items: center; }
@@ -209,7 +208,6 @@
   height: 8rem; }
   .headers__logo {
     font-size: 1.5rem;
-    border: 0.1rem solid black;
     padding: 0 1rem;
     display: flex;
     align-items: center; }
@@ -329,12 +327,7 @@
   .footerEspectaculos__texto {
     font-size: 3rem;
     font-weight: 700;
-<<<<<<< HEAD
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
-=======
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
- Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
->>>>>>> Tomas-Dev
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
   .footerEspectaculos__boton {
     width: 23rem;
     height: 2.5rem;
@@ -417,12 +410,7 @@
         margin-top: 3rem; }
         .footerContacto__col2__contacto__redes__titulo {
           font-size: 1.5rem;
-<<<<<<< HEAD
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
-=======
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
- Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
->>>>>>> Tomas-Dev
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
         .footerContacto__col2__contacto__redes__links {
           display: flex;
           justify-content: space-between;
@@ -438,6 +426,325 @@
               font-size: 1.4rem; }
 
 * {
+  font-family: work sans; }
+
+.nombreEvento .subtitulo-evento {
+  font-size: 32px;
+  font-family: work sans;
+  font-weight: bold;
+  text-align: center; }
+
+.nombreEvento .parrafo-evento {
+  font-family: work sans;
+  font-size: 18px;
+  margin: 36px 34.5px 48px 34.5px; }
+
+.nombreEvento .botonTeatro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: #C3457E; }
+  .nombreEvento .botonTeatro .botonTeatro2 {
+    width: 194px;
+    height: 45px;
+    padding: 8px 24px 8px 24px;
+    background-color: white;
+    color: #C3457E;
+    border-radius: 10px;
+    border-color: #C3457E;
+    border-width: 0.75px;
+    font-weight: 500;
+    font-family: work sans;
+    font-size: 14px;
+    line-height: 16px; }
+
+.conversemos-agenda {
+  background-color: #a71758;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 30px; }
+  .conversemos-agenda .col1-conversar-agenda {
+    margin-left: 100px;
+    margin-bottom: 20px; }
+    .conversemos-agenda .col1-conversar-agenda .h3-conversar-agenda {
+      font-size: 34px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-weight: bold; }
+    .conversemos-agenda .col1-conversar-agenda .p-conversar-agenda {
+      font-size: 18px; }
+  .conversemos-agenda .boton-conversar-agenda {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .conversemos-agenda .boton-conversar-agenda .boton-conversar-agenda2 {
+      width: 311px;
+      height: 40px;
+      font-size: 14px;
+      border-radius: 10px;
+      background-color: #f8cf57; }
+
+.videos-yt {
+  text-align: center; }
+
+.img-tm {
+  width: 335px; }
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 25px;
+  margin-bottom: 30px; }
+
+.subtitulo-conoceme {
+  color: #c3457e;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.margin-parrafos-top {
+  margin-right: 50px; }
+  .margin-parrafos-top .parrafos-conoceme {
+    font-size: 15px; }
+
+.margin-parrafos-bottom {
+  margin-left: 50px; }
+  .margin-parrafos-bottom .parrafos-conoceme {
+    font-size: 15px; }
+
+.margen-conoceme {
+  margin-left: 100px; }
+
+.titulos-listas-conoceme {
+  font-weight: bold;
+  font-size: 20px; }
+  .titulos-listas-conoceme .listas-items::marker {
+    font-size: 30px;
+    color: #f8cf57;
+    -right: 50px; }
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 25px;
+  margin-bottom: 30px; }
+
+.subtitulo-conoceme {
+  color: #c3457e;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.listas-conoceme {
+  font-size: 15px; }
+
+.listas-items::marker {
+  font-size: 30px;
+  color: #f8cf57;
+  -right: 50px; }
+
+.margen-conoceme {
+  margin-left: 100px; }
+
+.titulos-listas-conoceme {
+  font-weight: bold;
+  font-size: 20px; }
+
+.footer-conoceme {
+  background-color: #d8ab27; }
+
+.textos-footer-conoceme {
+  color: #ffffff;
+  margin-left: 5%;
+  font-size: 15px; }
+
+.hr-footer-conoceme {
+  padding-top: 10px;
+  color: #d8ab27; }
+
+.hr2-footer-conoceme {
+  color: white;
+  height: 3px; }
+
+.logos-conoceme {
+  width: 25px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.parrafos-conoceme {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0,02em; }
+
+.margin-parrafos-top {
+  margin-right: auto; }
+
+.margin-parrafos-bottom {
+  margin-left: auto;
+  height: 424px;
+  width: 641px; }
+  .margin-parrafos-bottom .h3-conoceme {
+    font-size: 32px;
+    font-family: work sans;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700; }
+  .margin-parrafos-bottom .h5-conoceme {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: work sans;
+    font-weight: 700; }
+
+.miTrabajo-conoceme {
+  background-color: #fcedbf;
+  color: #121212;
+  margin-bottom: 50px;
+  margin-top: 30px; }
+  .miTrabajo-conoceme .conoce-conoceme {
+    margin-left: 250px;
+    margin-bottom: 45px;
+    margin-top: 45px; }
+    .miTrabajo-conoceme .conoce-conoceme .h3-conoce {
+      font-size: 40px;
+      font-weight: 700;
+      font-family: work sans;
+      align-items: right; }
+  .miTrabajo-conoceme .boton-conversar-agenda {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .miTrabajo-conoceme .boton-conversar-agenda .boton-conversar-agenda2 {
+      width: 300px;
+      height: 40px;
+      font-size: 14px;
+      color: #ffffff;
+      background-color: #c3457e;
+      font-weight: 400; }
+
+.divs-espectaculos {
+  margin-bottom: 50px; }
+  .divs-espectaculos .cuadrado-animacionEventos {
+    background-color: #fcedbf;
+    width: 531px;
+    height: 378px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 10px; }
+    .divs-espectaculos .cuadrado-animacionEventos .tituloAnimacion {
+      text-align: center;
+      margin-top: 27px;
+      font-size: 28px;
+      margin-bottom: 32px;
+      font-weight: bold;
+      font-family: work sans; }
+    .divs-espectaculos .cuadrado-animacionEventos .parrafoAnimacion {
+      font-family: work sans;
+      font-size: 18px;
+      margin: 0 35.5px 24px 35.5px; }
+    .divs-espectaculos .cuadrado-animacionEventos .boton-animacion2 {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .divs-espectaculos .cuadrado-animacionEventos .boton-animacion2 .boton-animacion {
+        width: 309px;
+        height: 40px;
+        padding: 8px 24px 8px 24px;
+        background-color: #c3457e;
+        border-radius: 10px;
+        border: none;
+        font-weight: 500;
+        font-family: work sans;
+        font-size: 14px;
+        line-height: 16px;
+        color: white; }
+  .divs-espectaculos .img-animacionEventos {
+    width: 530px;
+    margin-left: 10px;
+    margin-right: auto; }
+    .divs-espectaculos .img-animacionEventos .img-aE {
+      width: 530px;
+      height: 378px; }
+
+.divs-teatros .cuadrado-presentacionTeatro {
+  background-color: #ffd5e8;
+  width: 531px;
+  height: 490px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: 10px; }
+  .divs-teatros .cuadrado-presentacionTeatro .tituloTeatro {
+    text-align: center;
+    margin-top: 26px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: work sans;
+    line-height: 32px;
+    margin-bottom: 32px; }
+  .divs-teatros .cuadrado-presentacionTeatro .parrafosTeatro {
+    font-family: work sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 35.5px 24px 35.5px; }
+  .divs-teatros .cuadrado-presentacionTeatro .botonTeatro {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .divs-teatros .cuadrado-presentacionTeatro .botonTeatro .botonTeatro2 {
+      width: 309px;
+      height: 40px;
+      padding: 8px 24px 8px 24px;
+      background-color: #f8cf57;
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+      font-family: work sans;
+      font-size: 14px;
+      line-height: 16px; }
+
+.divs-teatros .img-presentacionTeatro {
+  width: 550px;
+  margin-right: 20px;
+  margin-left: auto; }
+  .divs-teatros .img-presentacionTeatro .img-pT {
+    width: 530px;
+    height: 490px; }
+
+.habilidades .bloqueMalabarista {
+  width: 310px;
+  height: 191px;
+  border-radius: 10px;
+  background-color: #FFD5E8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px; }
+  .habilidades .bloqueMalabarista .pMalabarista {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center; }
+
+.habilidades .bloqueEquilibrio {
+  width: 310px;
+  height: 168px;
+  background: #F8CF57;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .habilidades .bloqueEquilibrio .pEquilibrio {
+    font-size: 32px;
+    text-align: center; }
+
+.centrado-habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.img-marginbotom {
+  margin-bottom: 24px; }
+
+* {
   margin: 0%;
   padding: 0%; }
 
@@ -449,98 +756,3 @@ body {
   position: relative;
   overflow-x: hidden;
   text-decoration: none; }
-<<<<<<< HEAD
-=======
-
-  .subtitle{
-    margin-top: 20px;
-    font-size: 25px;
-    margin-bottom: 30px;
-  }
-  .subtitulo-conoceme{
-    color: #c3457e;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .listas-conoceme{
-    font-size: 15px;
-  
-  }
-  .listas-items::marker{
-    font-size: 30px;
-    color: #f8cf57;
-    -right: 50px;
-    
-  
-  }
-  .margen-conoceme{
-    margin-left: 100px  ;
-    ;
-  }
-  .titulos-listas-conoceme{
-  font-weight: bold;
-  font-size: 20px;
-  }
-  
-  .footer-conoceme{
-    background-color: #d8ab27;
-  }
-  .textos-footer-conoceme{
-    color: #ffffff;
-    margin-left: 5%;
-    font-size: 15px;
-  }
-  .hr-footer-conoceme{
-    padding-top: 10px;
-    color: #d8ab27;
-  }
-  .hr2-footer-conoceme{
-    color: white;
-    height: 3px;
-    
-  }
-  .logos-conoceme{
-    width: 25px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  .parrafos-conoceme{
-    font-size: 15px;
-  }
-  .margin-parrafos-top{
-    margin-right: 50px;
-  }
-  .margin-parrafos-bottom{
-    margin-left: 50px;
-  }
-  
-  .conversemos-agenda{
-    background-color: #a71758;
-    color: #ffffff;
-    margin-bottom: 40px;
-    margin-top: 30px;
-  }
-  .boton-conversar-agenda{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .h3-conversar-agenda{
-    font-size: 27px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  .p-conversar-agenda{
-    font-size: 15px;
-  }
-  .col1-conversar-agenda{
-    margin-left: 100px;
-    margin-bottom: 20px;
-  }
-  .boton-conversar-agenda2{
-    width: 300px;
-    height: 40px ;
-    font-size: 13px;
-  }
->>>>>>> Tomas-Dev

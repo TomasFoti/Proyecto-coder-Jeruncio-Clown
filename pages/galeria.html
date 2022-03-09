@@ -4,68 +4,128 @@
 <head>
   <meta charset="utf-8">
   <title>Galeria-Jeruncio Clown</title>
-	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../scss/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <!--Barra de Menu-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Logo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" href="biografia.html">Biografia</a>
-                  <a class="nav-link active" href="que hago.html">¿Que hago?</a>
-                  <a class="nav-link active" href="Calendario.html">Calendario</a>
-                  <a class="nav-link active" href="galeria.html">Galeria</a>
-                  <a class="nav-link active" href="Contacto.html">Contacto</a>
-                </div>
-              </div>
-            </div>
-          </nav>
+    <!--*******************************HEADER**************************************-->
+    <header >
+      <!--Barra de Menu-->
+      <div class="header__row1">
+        <div class="header__row1__logo">
+          <a href="../index.html">
+            <img src="../imagenes/logo-index.png" alt="">
+          </a>
+        </div>
+        <nav class="header__row1__navBar">
+          <button class="header__row1__navBar__boton">
+            <a href="conoceme.html" class="header__row1__navBar__boton--text"
+              >Conoceme</a
+            >
+          </button>
+          <button class="header__row1__navBar__boton">
+            <a href="calendario.html" class="header__row1__navBar__boton--text"
+              >Agenda</a
+            >
+          </button>
+          <button class="header__row1__navBar__boton">
+            <a
+              href="espectaculos.html"
+              class="header__row1__navBar__boton--text"
+              >Espectaculos</a
+            >
+          </button>
+          <button class="header__row1__navBar__boton">
+            <a href="galeria.html" class="header__row1__navBar__boton--text"
+              >Galeria</a
+            >
+          </button>
+          <button class="header__row1__navBar__boton">
+            <a href="Contacto.html" class="header__row1__navBar__boton--text"
+              >Contacto</a
+            >
+          </button>
+        </nav>
+      </div>
+      <!--FIN BARRA DEL MENU-->
+      </div>
     </header>
 <section>
 <article>
-<h2>Fotos</h2>
+<h2 class="main__separadorAgenda__h2 subtitle">
+  <span class="main__separadorAgenda__h2__span ">Fotos</span>
+</h2>
 
-<div id="carrusel1" class="owl-carousel owl-theme mb-3" >
- <div class=" slide"  data-slide-index="0"><img src="imagenes/imagenesM.jpg" alt=""></div>
-  <div class="slide" data-slide-index="1"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-  <div class="slide" data-slide-index="2"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-  <div class="slide" data-slide-index="3"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-  <div class="slide" data-slide-index="4"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-  <div class="slide" data-slide-index="5"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-  <div class="slide" data-slide-index="6"> <img src="imagenes/imagenesM.jpg" alt=""></div>
+<div id="carrusel1" class="owl-carousel owl-theme mb-4 ms-5" >
+ <div class=" slide img-tm"  data-slide-index="0"><img src="../imagenes/Jeruncio-1.jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="1"> <img src="../imagenes/Jeruncio-2.jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="2"> <img src="../imagenes/Jeruncio-3.jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="3"> <img src="../imagenes/Jeruncio-4.jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="4"> <img src="../imagenes/Jeruncio-5.jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="5"> <img src="../imagenes/Jeruncio-6.jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="6"> <img src="../imagenes/Jeruncio-8 (2).jpg" alt=""></div>
+  <div class="slide img-tm" data-slide-index="7"> <img src="../imagenes/Jeruncio-8 (1).jpg" alt=""></div>
 </div>
 </article>
 
 <article>
-<h2>Videos</h2>
+  <h2 class="main__separadorAgenda__h2 subtitle">
+    <span class="main__separadorAgenda__h2__span ">Videos</span>
+  </h2>
 
-<div id="carrusel1" class="owl-carousel owl-theme mb-3" >
-    <div class=" slide"  data-slide-index="0"><img src="imagenes/imagenesM.jpg" alt=""></div>
-     <div class="slide" data-slide-index="1"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-     <div class="slide" data-slide-index="2"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-     <div class="slide" data-slide-index="3"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-     <div class="slide" data-slide-index="4"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-     <div class="slide" data-slide-index="5"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-     <div class="slide" data-slide-index="6"> <img src="imagenes/imagenesM.jpg" alt=""></div>
-   </div>
+<div class="videos-yt">
+  <iframe width="560" height="315" class="youtube-video-iz" src="https://www.youtube.com/embed/I_2VXLR1fwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/u5bu66Q9lXc?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+  
 </article>
 
+
+<article class="conversemos-agenda">
+  <div class="row">
+      <div class="col col1-conversar-agenda">
+  <h3 class="h3-conversar-agenda">Te invito a ver más de mis fotos</h3>
+
+  <p class="p-conversar-agenda">Tengo más fotos para que explores, ¡Conoce un poco más de mí por ahí!</p>
+</div>
+<div class="col boton-conversar-agenda">
+<a href="https://drive.google.com/folderview?id=1FcHgHPde1iJvcu6pzUrkN6Hbdnsg8QvF"><button class="header__row2__presentacion__boton boton-conversar-agenda2" type="button">
+  IR A GOOGLE DRIVE</button></a>
+</button>
+</div>
+</div>
+</article>
 
 
 </section>
 
 
 
+    <footer class="footer-conoceme">
+      <hr class="hr-footer-conoceme">
+      <hr class="hr2-footer-conoceme">
+      <div class="row">
+      <div class="col-10">
+      <i class="textos-footer-conoceme">2021 - Jeruncio Clown | Diseño: Triana Alexandra</i>
+    </div>
+    <div  class="col-2 ">
+      <a href="https://instagram.com/jeruncio.clown?utm_medium=copy_link"><img class="logos-conoceme" src="../imagenes/logotipo-de-instagram.png" alt=""></a>
+      <a href="https://youtube.com/channel/UCkH7JATSi23lIKHRbXvQYJw"><img class="logos-conoceme" src="../imagenes/youtube.png" alt=""></a>
+      <a href="https://m.facebook.com/PayasoJeruncioTerrible/?ref=bookmarks"><img class="logos-conoceme" src="../imagenes/facebook2.png" alt=""></a>
+    </div>
+  </div>
+    </footer>
 
 
 
@@ -93,10 +153,13 @@
 
 
 
-  <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-	  <script src="js/owlcarousel/owl.carousel.min.js"></script>
-	  <script src="js/owlCarousel2Rows.js"></script>
+
+
+
+  <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap/bootstrap.bundle.min.js"></script>
+	  <script src="../js/owlcarousel/owl.carousel.min.js"></script>
+	  <script src="../js/owlCarousel2Rows.js"></script>
 	
 <script>
 
