@@ -329,7 +329,12 @@
   .footerEspectaculos__texto {
     font-size: 3rem;
     font-weight: 700;
+<<<<<<< HEAD
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+=======
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+ Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+>>>>>>> Tomas-Dev
   .footerEspectaculos__boton {
     width: 23rem;
     height: 2.5rem;
@@ -412,7 +417,12 @@
         margin-top: 3rem; }
         .footerContacto__col2__contacto__redes__titulo {
           font-size: 1.5rem;
+<<<<<<< HEAD
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+=======
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+ Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+>>>>>>> Tomas-Dev
         .footerContacto__col2__contacto__redes__links {
           display: flex;
           justify-content: space-between;
@@ -439,3 +449,98 @@ body {
   position: relative;
   overflow-x: hidden;
   text-decoration: none; }
+<<<<<<< HEAD
+=======
+
+  .subtitle{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .subtitulo-conoceme{
+    color: #c3457e;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .listas-conoceme{
+    font-size: 15px;
+  
+  }
+  .listas-items::marker{
+    font-size: 30px;
+    color: #f8cf57;
+    -right: 50px;
+    
+  
+  }
+  .margen-conoceme{
+    margin-left: 100px  ;
+    ;
+  }
+  .titulos-listas-conoceme{
+  font-weight: bold;
+  font-size: 20px;
+  }
+  
+  .footer-conoceme{
+    background-color: #d8ab27;
+  }
+  .textos-footer-conoceme{
+    color: #ffffff;
+    margin-left: 5%;
+    font-size: 15px;
+  }
+  .hr-footer-conoceme{
+    padding-top: 10px;
+    color: #d8ab27;
+  }
+  .hr2-footer-conoceme{
+    color: white;
+    height: 3px;
+    
+  }
+  .logos-conoceme{
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .parrafos-conoceme{
+    font-size: 15px;
+  }
+  .margin-parrafos-top{
+    margin-right: 50px;
+  }
+  .margin-parrafos-bottom{
+    margin-left: 50px;
+  }
+  
+  .conversemos-agenda{
+    background-color: #a71758;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .boton-conversar-agenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .h3-conversar-agenda{
+    font-size: 27px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .p-conversar-agenda{
+    font-size: 15px;
+  }
+  .col1-conversar-agenda{
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .boton-conversar-agenda2{
+    width: 300px;
+    height: 40px ;
+    font-size: 13px;
+  }
+>>>>>>> Tomas-Dev

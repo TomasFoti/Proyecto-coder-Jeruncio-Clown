@@ -1,0 +1,72 @@
+*{
+    font-family: work sans;
+}
+
+.nombreEvento{
+    .subtitulo-evento{
+        font-size: 32px;
+        font-family: work sans;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    .parrafo-evento{
+        font-family: work sans;
+        font-size: 18px;
+        margin: 36px 34.5px 48px 34.5px;
+    }
+    .botonTeatro{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: #C3457E;
+            .botonTeatro2{
+                width: 194px;
+                height: 45px;
+                padding: 8px 24px 8px 24px;
+                background-color: white;
+                color: #C3457E;
+                border-radius: 10px;
+                border-color: #C3457E;
+                border-width: 0.75px;
+                font-weight: 500;
+                font-family: work sans;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+}
+
+.conversemos-agenda{
+    background-color: #a71758;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    .col1-conversar-agenda{
+        margin-left: 100px;
+        margin-bottom: 20px;
+        .h3-conversar-agenda{
+            font-size: 34px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-weight: bold;
+
+        }
+        .p-conversar-agenda{
+            font-size: 18px;
+        }
+    }
+    
+    .boton-conversar-agenda{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .boton-conversar-agenda2{
+            width: 311px;
+            height: 40px ;
+            font-size: 14px;
+            border-radius: 10px;
+            background-color: #f8cf57;
+        }
+    }
+}
