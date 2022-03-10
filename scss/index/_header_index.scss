@@ -1,15 +1,24 @@
 .header {
-  width: 100%;
-  height: 65rem;
-  padding: 0 5rem;
-  background-color: $gris;
+  // width: 100%;
+  height: max-content;
+  position: relative;
+  &__carrousel {
+    z-index: -99;
+    // overflow: hidden;
+    &__imgs {
+      &__img {
+        max-width: auto;
+      }
+    }
+  }
   &__row1 {
     display: flex;
     justify-content: space-between;
     height: 8rem;
+    position: absolute;
+    width: 100%;
     &__logo {
       font-size: 1.5rem;
-      border: 0.1rem solid black;
       padding: 0 1rem;
       display: flex;
       align-items: center;
@@ -18,8 +27,8 @@
     &__navBar {
       display: flex;
       justify-content: space-between;
-      width: 40rem;
-      // border: 0.1rem solid black;
+      width: 60rem;
+      padding-right: 15rem;
 
       &__boton {
         border: none;
@@ -27,8 +36,9 @@
         &--text {
           color: $amarillo;
           text-decoration: none;
-          font-weight: 500;
+          font-weight: 400;
           font-size: 1.3rem;
+          font-family: $fontWorkSans;
         }
       }
     }
@@ -37,24 +47,28 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
+    position: absolute;
+    top: 50rem;
+    left: 25rem;
     &__presentacion {
       display: flex;
       flex-direction: column;
-      margin-bottom: 20rem;
+      // margin-bottom: 20rem;
 
       &__titulo {
-        font-size: 3rem;
-        font-weight: 500;
+        font-size: 4rem;
+        font-weight: 700;
         color: $blanco;
+        font-family: $fontWorkSans;
       }
       &__boton {
-        width: 14rem;
-        height: 2.3rem;
+        padding: 0.5rem 6.1rem;
         background-color: $amarillo;
         border-radius: 0.5rem;
         border: none;
-        font-weight: 500;
+        font-family: $fontWorkSans;
+        font-size: 1.3rem;
+        text-transform: uppercase;
       }
     }
   }
