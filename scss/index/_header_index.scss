@@ -1,12 +1,24 @@
 .header {
   width: 100%;
   height: 65rem;
-  padding: 0 5rem;
-  background-color: $gris;
+  position: relative;
+  &__carrousel {
+    z-index: -99;
+    overflow: hidden;
+    height: 65rem;
+    width: 100%;
+    &__imgs {
+      &__img {
+        width: 60%;
+      }
+    }
+  }
   &__row1 {
     display: flex;
     justify-content: space-between;
     height: 8rem;
+    position: absolute;
+    width: 100%;
     &__logo {
       font-size: 1.5rem;
       padding: 0 1rem;
@@ -17,8 +29,8 @@
     &__navBar {
       display: flex;
       justify-content: space-between;
-      width: 40rem;
-      // border: 0.1rem solid black;
+      width: 60rem;
+      padding-right: 15rem;
 
       &__boton {
         border: none;
@@ -36,7 +48,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
+    position: absolute;
+    top: 40rem;
+    left: 25rem;
     &__presentacion {
       display: flex;
       flex-direction: column;
