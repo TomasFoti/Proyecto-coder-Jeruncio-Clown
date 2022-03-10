@@ -62,12 +62,13 @@
         font-family: "Work Sans", sans-serif;
       }
       &__boton {
-        width: 14rem;
-        height: 2.3rem;
+        padding: 0.5rem 6.1rem;
         background-color: $amarillo;
         border-radius: 0.5rem;
         border: none;
-        font-weight: 500;
+        font-family: "Work Sans", sans-serif;
+        font-size: 1.6rem;
+        text-transform: uppercase;
       }
     }
   }
