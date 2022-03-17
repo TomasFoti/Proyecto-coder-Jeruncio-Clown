@@ -1,12 +1,9 @@
+// .faceDegreed {
+//   background-image: linear-gradient($rosa, transparent);
+// }
 .headerContacto {
   background-image: url(../../imagenes/jeruncioCall.png);
   height: 80rem;
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(255, 235, 244, 0) 41.67%,
-  //   #ffd5e8 100%
-  // );
-  // width: 100%;
   background-size: cover;
   position: relative;
 
@@ -14,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     height: 8rem;
-    position: absolute;
+    // position: absolute;
     width: 100%;
     &__logo {
       font-size: 1.5rem;
@@ -43,16 +40,16 @@
     }
   }
   &__row2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    // display: flex;
+    // justify-content: flex-start;
+    // align-items: center;
     position: absolute;
-    top: 50rem;
-    left: 25rem;
-    &__presentacion {
-      display: flex;
-      flex-direction: column;
-      // margin-bottom: 20rem;
+    top: 90%;
+    right: 15%;
+    &__text {
+      font-family: $fontWorkSans;
+      font-weight: 700;
+      font-size: 4rem;
     }
   }
 }
