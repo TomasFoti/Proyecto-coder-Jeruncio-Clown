@@ -7,7 +7,7 @@
     // overflow: hidden;
     &__imgs {
       &__img {
-        max-width: auto;
+        width: 100%;
       }
     }
   }
@@ -48,8 +48,8 @@
     justify-content: flex-start;
     align-items: center;
     position: absolute;
-    top: 50rem;
-    left: 25rem;
+    top: 65rem;
+    left: 15rem;
     &__presentacion {
       display: flex;
       flex-direction: column;
