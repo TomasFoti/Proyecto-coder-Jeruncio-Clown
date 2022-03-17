@@ -62,6 +62,8 @@
       &__input {
         font-size: 1.8rem;
         height: 4rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
       }
     }
     &__email {
@@ -73,6 +75,8 @@
       &__input {
         height: 4rem;
         font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
       }
     }
     &__telefono {
@@ -83,11 +87,14 @@
       }
       &__input {
         height: 4rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+        font-size: 1.8rem;
       }
     }
     &__pregunta {
       &__texto {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-family: $fontWorkSans;
         font-weight: 400;
       }
@@ -110,6 +117,14 @@
         font-size: 1.8rem;
         font-family: $fontWorkSans;
         font-weight: 400;
+      }
+    }
+
+    &__comentarios {
+      &__input {
+        font-family: $fontWorkSans;
+        font-weight: 400;
+        font-size: 4rem;
       }
     }
 

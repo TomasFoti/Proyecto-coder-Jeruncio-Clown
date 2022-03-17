@@ -178,22 +178,29 @@
       font-weight: 400; }
     .footer__formIndex__nombre__input {
       font-size: 1.8rem;
-      height: 4rem; }
+      height: 4rem;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400; }
     .footer__formIndex__email__label {
       font-size: 1.8rem;
       font-family: "Work Sans", sans-serif;
       font-weight: 400; }
     .footer__formIndex__email__input {
       height: 4rem;
-      font-size: 1.8rem; }
+      font-size: 1.8rem;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400; }
     .footer__formIndex__telefono__label {
       font-size: 1.8rem;
       font-family: "Work Sans", sans-serif;
       font-weight: 400; }
     .footer__formIndex__telefono__input {
-      height: 4rem; }
+      height: 4rem;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 1.8rem; }
     .footer__formIndex__pregunta__texto {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-family: "Work Sans", sans-serif;
       font-weight: 400; }
     .footer__formIndex__optionEmail {
@@ -211,6 +218,10 @@
         font-size: 1.8rem;
         font-family: "Work Sans", sans-serif;
         font-weight: 400; }
+    .footer__formIndex__comentarios__input {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 4rem; }
     .footer__formIndex__botonSubmit {
       display: flex;
       justify-content: flex-end; }
@@ -260,116 +271,6 @@ input[type="radio"] {
         font-weight: 500;
         font-size: 1.3rem; }
 
-.mainEspectaculos__separadorAnimacion {
-  margin: 2rem 0 2rem 5rem; }
-  .mainEspectaculos__separadorAnimacion__h2 {
-    width: 100%;
-    text-align: start;
-    border-bottom: 0.2rem solid #c3457e;
-    line-height: 0.1rem;
-    margin: 0.1rem 0 0.2rem; }
-    .mainEspectaculos__separadorAnimacion__h2__span {
-      background: #fff;
-      padding: 0 10px;
-      color: #c3457e;
-      font-weight: 600; }
-
-.mainEspectaculos__animacion {
-  margin-top: 4rem;
-  padding: 0 5rem 2rem; }
-  .mainEspectaculos__animacion__row1 {
-    display: flex;
-    justify-content: space-between; }
-    .mainEspectaculos__animacion__row1__parrafo {
-      width: 55%; }
-    .mainEspectaculos__animacion__row1__img {
-      width: 40%;
-      height: 20rem;
-      border-radius: 0.5rem; }
-  .mainEspectaculos__animacion__row2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column; }
-    .mainEspectaculos__animacion__row2__carrousel {
-      margin: 2rem 0;
-      width: 80rem;
-      height: 30rem; }
-    .mainEspectaculos__animacion__row2__boton {
-      width: 23rem;
-      height: 2.5rem;
-      background-color: #c3457e;
-      border-radius: 0.5rem;
-      font-weight: 400;
-      color: #ffffff;
-      border: none;
-      font-family: Arial, Helvetica, sans-serif; }
-
-.mainEspectaculos__separadorPresentaciones {
-  margin: 2rem 5rem 2rem 0; }
-  .mainEspectaculos__separadorPresentaciones__h2 {
-    width: 100%;
-    text-align: end;
-    border-bottom: 0.2rem solid #c3457e;
-    line-height: 0.1rem;
-    margin: 0.1rem 0 0.2rem; }
-    .mainEspectaculos__separadorPresentaciones__h2__span {
-      background: #fff;
-      padding: 0 10px;
-      color: #c3457e;
-      font-weight: 600; }
-
-.mainEspectaculos__presentaciones {
-  padding: 0 5rem;
-  margin-top: 4rem; }
-  .mainEspectaculos__presentaciones__row1 {
-    display: flex;
-    justify-content: space-between; }
-    .mainEspectaculos__presentaciones__row1__parrafo {
-      width: 55%; }
-    .mainEspectaculos__presentaciones__row1__img {
-      width: 40%;
-      height: 20rem;
-      border-radius: 0.5rem; }
-  .mainEspectaculos__presentaciones__row2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column; }
-    .mainEspectaculos__presentaciones__row2__carrousel {
-      margin: 2rem 0;
-      width: 80rem;
-      height: 30rem; }
-    .mainEspectaculos__presentaciones__row2__boton {
-      width: 23rem;
-      height: 2.5rem;
-      background-color: #c3457e;
-      border-radius: 0.5rem;
-      font-weight: 400;
-      color: #ffffff;
-      border: none;
-      font-family: Arial, Helvetica, sans-serif; }
-
-.footerEspectaculos {
-  height: 9rem;
-  background-color: #ee91bc;
-  margin: 3rem 0 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .footerEspectaculos__texto {
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
-  .footerEspectaculos__boton {
-    width: 23rem;
-    height: 2.5rem;
-    background-color: #f8cf57;
-    border-radius: 0.5rem;
-    font-weight: 400;
-    color: #121212;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 3rem; }
-
 .headerContacto {
   background-image: url(../../imagenes/jeruncioCall.png);
   height: 80rem;
@@ -405,81 +306,113 @@ input[type="radio"] {
     right: 15%; }
     .headerContacto__row2__text {
       font-family: "Work Sans", sans-serif;
-      font-weight: 700;
-      font-size: 4rem; }
+      font-weight: 900;
+      font-size: 4rem;
+      line-height: 4.8rem;
+      color: #121212; }
 
 .footerContacto {
-  padding: 5rem 5rem;
-  background: #ffd4e8; }
+  padding: 0rem 20rem;
+  background: #ffd4e8;
+  height: auto; }
   .footerContacto__row {
     display: flex; }
   .footerContacto__parrafo {
     display: flex; }
     .footerContacto__parrafo__text {
-      color: #c3457e;
-      font-size: 2.5rem;
-      font-weight: 600; }
+      color: #870640;
+      font-size: 3.2rem;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 700; }
   .footerContacto__col1 {
-    width: 60%; }
+    width: 70%; }
     .footerContacto__col1__formContacto {
-      height: 35rem; }
+      margin-bottom: 5rem; }
       .footerContacto__col1__formContacto__textArea {
         width: 100%;
         border: none;
-        height: 14rem;
-        padding: 1rem; }
+        height: 20rem;
+        padding: 1rem;
+        font-size: 2rem;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400; }
       .footerContacto__col1__formContacto__btns {
         display: flex;
         justify-content: flex-end; }
         .footerContacto__col1__formContacto__btns__btnSend {
-          width: 15rem;
-          height: 2.5rem;
+          width: 20rem;
+          height: 4rem;
           background-color: #c3457e;
           border-radius: 0.5rem;
-          font-weight: 400;
-          color: #ffffff;
           border: none;
-          font-family: Arial, Helvetica, sans-serif; }
+          font-family: "Work Sans", sans-serif;
+          font-weight: 400;
+          font-size: 1.2rem;
+          color: white; }
   .footerContacto__col2 {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: flex-end; }
     .footerContacto__col2__contacto {
       height: 35rem;
       width: 90%;
       border-radius: 1rem;
-      padding: 2rem;
-      background-color: #ffffff;
+      background-color: transparent;
       display: flex;
       flex-direction: column;
       align-items: flex-start; }
       .footerContacto__col2__contacto__titulo {
-        font-size: 2.2rem;
-        font-weight: 700;
+        font-size: 2.4rem;
+        font-weight: 900;
+        font-family: "Work Sans", sans-serif;
         margin-bottom: 2rem; }
       .footerContacto__col2__contacto__datos {
-        margin-bottom: 0.5rem;
-        font-size: 1.1rem; }
+        margin-bottom: 4rem;
+        font-size: 1.8rem;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400; }
         .footerContacto__col2__contacto__datos--bold {
-          font-weight: 700; }
+          font-weight: 700;
+          font-family: "Work Sans", sans-serif; }
+        .footerContacto__col2__contacto__datos--correoBold {
+          display: block;
+          font-weight: 700;
+          font-family: "Work Sans", sans-serif; }
       .footerContacto__col2__contacto__redes {
-        margin-top: 3rem; }
+        margin-top: 3rem;
+        width: 100%; }
         .footerContacto__col2__contacto__redes__titulo {
-          font-size: 1.5rem;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+          font-size: 1.8rem;
+          font-family: "Work Sans", sans-serif;
+          font-weight: 400; }
         .footerContacto__col2__contacto__redes__links {
           display: flex;
-          justify-content: space-between;
-          padding-right: 2rem; }
+          justify-content: space-between; }
           .footerContacto__col2__contacto__redes__links__link {
-            background-color: #870640;
+            background-color: #c3457e;
             border-radius: 3rem;
-            padding: 0.6rem;
+            padding: 1rem;
             display: flex;
             text-decoration: none; }
             .footerContacto__col2__contacto__redes__links__link__img {
               color: #ffffff;
-              font-size: 1.4rem; }
+              font-size: 2rem; }
+
+input[type="radio"][id="flexRadioDefault3"] {
+  border: 0.2rem solid #c3457e;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: transparent;
+  margin-right: 1.5rem; }
+
+input[type="radio"][id="flexRadioDefault4"] {
+  border: 0.2rem solid #c3457e;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: transparent;
+  margin-right: 1.5rem; }
 
 * {
   font-family: work sans; }
