@@ -272,8 +272,8 @@ input[type="radio"] {
         font-size: 1.3rem; }
 
 .headerContacto {
-  background-image: url(../../imagenes/jeruncioCall.png);
-  height: 80rem;
+  background-image: url(../../imagenes/portada_contacto.png);
+  height: 88rem;
   background-size: cover;
   position: relative; }
   .headerContacto__row1 {
