@@ -1,0 +1,320 @@
+.subtitle{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subtitulo-conoceme{
+    color: #c3457e;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margin-parrafos-top{
+    margin-left: auto;
+    .parrafos-conoceme{
+        font-size: 15px;
+    }
+}
+
+.margin-parrafos-bottom{
+    margin-left: 50px;
+    background-color: #121212;
+    .parrafos-conoceme{
+        font-size: 15px;
+    }
+}
+
+.margen-conoceme{
+    margin-left: 100px  ;
+    ;
+}
+
+.titulos-listas-conoceme{
+    font-weight: bold;
+    font-size: 20px;
+    .listas-items::marker{
+        font-size: 30px;
+        color: #f8cf57;
+        -right: 50px;
+    }
+}
+
+.subtitle{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.subtitulo-conoceme{
+    color: #c3457e;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.listas-conoceme{
+    font-size: 15px;
+}
+
+.listas-items::marker{
+    font-size: 30px;
+    color: #f8cf57;
+    -right: 50px;
+}
+.margen-conoceme{
+    margin-left: 100px  ;
+    ;
+}
+.titulos-listas-conoceme{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-conoceme{
+    background-color: #d8ab27;
+}
+.textos-footer-conoceme{
+    color: #ffffff;
+    margin-left: 5%;
+    font-size: 15px;
+}
+.hr-footer-conoceme{
+    padding-top: 10px;
+    color: #d8ab27;
+}
+.hr2-footer-conoceme{
+    color: white;
+    height: 3px;
+}
+
+.logos-conoceme{
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.parrafos-conoceme{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0,02em;
+}
+.margin-parrafos-{
+    margin-right: 0 !important;
+
+}
+.margin-parrafos{
+    margin-left:0 ;
+
+    height: 424px;
+    width: 641px;
+    .h3-conoceme{
+        font-size: 32px;
+        font-family: work sans;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+    .h5-conoceme{
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 24px;
+        font-family: work sans;
+        font-weight: 700;
+    }
+}
+
+.miTrabajo-conoceme{
+    background-color: #fcedbf;
+    color: #121212;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    .conoce-conoceme{
+        margin-left: 250px;
+        margin-bottom: 45px;
+        margin-top: 45px;
+        .h3-conoce{
+            font-size: 40px;
+            font-weight: 700;
+            font-family: work sans;
+            align-items: right;
+        }
+    }
+    .boton-conversar-agenda{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .boton-conversar-agenda2{
+            width: 300px;
+            height: 40px ;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #c3457e;
+            font-weight: 400;
+        }
+    }
+}
+
+.divs-espectaculos{
+    margin-bottom: 50px;
+
+    .cuadrado-animacionEventos{
+        background-color: #fcedbf;
+        width: 531px;
+        height: 378px;
+        border-radius: 10px;
+        margin-left:auto ;
+        margin-right: 10px;
+
+        .tituloAnimacion{
+            text-align: center;
+            margin-top: 27px;
+            font-size: 28px;
+            margin-bottom: 32px;
+            font-weight: bold;
+            font-family: work sans;
+        }
+        .parrafoAnimacion{
+            font-family: work sans;
+            font-size: 18px;
+            margin: 0 35.5px 24px 35.5px;
+        }
+
+        .boton-animacion2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .boton-animacion{
+                width: 309px;
+                height: 40px;
+                padding: 8px 24px 8px 24px;
+                background-color: #c3457e;
+                border-radius: 10px;
+                border: none;
+                font-weight: 500;
+                font-family: work sans;
+                font-size: 14px;
+                line-height: 16px;
+                color: white;
+            }
+        }
+    }
+
+    .img-animacionEventos{
+        width: 530px;
+        margin-left: 10px;
+        margin-right: auto;
+        .img-aE{
+            width: 530px;
+            height: 378px;
+        }
+
+    }
+}
+
+.divs-teatros{
+
+    .cuadrado-presentacionTeatro{
+        background-color: #ffd5e8;
+        width: 531px;
+        height: 490px;
+        border-radius: 10px;
+        margin-right:auto ;
+        margin-left: 10px;
+        .tituloTeatro{
+            text-align: center;
+            margin-top: 26px;
+            font-weight: bold;
+            font-size: 28px;
+            font-family: work sans;
+            line-height: 32px;
+            margin-bottom: 32px;
+        }
+        .parrafosTeatro{
+            font-family: work sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            margin: 0 35.5px 24px 35.5px;
+        }
+
+        .botonTeatro{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .botonTeatro2{
+                width: 309px;
+                height: 40px;
+                padding: 8px 24px 8px 24px;
+                background-color: #f8cf57;
+                border-radius: 10px;
+                border: none;
+                font-weight: 500;
+                font-family: work sans;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+    }
+    .img-presentacionTeatro{
+        width: 550px;
+        margin-right: 20px;
+        margin-left: auto;
+        .img-pT{
+            width: 530px;
+            height: 490px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
+
+.habilidades{
+    .bloqueMalabarista{
+        width: 310px;
+        height: 191px;
+        border-radius: 10px;
+        background-color:#FFD5E8 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 24px;
+        .pMalabarista{
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+    .bloqueEquilibrio{
+        width: 310px;
+        height: 168px;
+        background: #F8CF57;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .pEquilibrio{
+            font-size: 32px;
+            text-align: center;
+
+
+        }
+    }
+}
+
+.centrado-habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-marginbotom{
+    margin-bottom: 24px;
+}
+
+
+
