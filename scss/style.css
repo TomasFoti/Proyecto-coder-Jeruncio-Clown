@@ -770,12 +770,20 @@
     letter-spacing: 0, 2em;
   }
   
-  .margin-parrafos-top {
-    margin-right: auto;
-  }
+.centrado-bio{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.margin-parrafos-top{
+    padding: 0 !important;
+    margin: 0% !important;
+}
   
   .margin-parrafos-bottom {
-    margin-left: auto;
+    text-align: center;
+    padding: 0% !important;
+    margin: 0 !important;
     height: 424px;
     width: 641px;
   }
@@ -973,10 +981,21 @@
     align-items: center;
     justify-content: center;
   }
+
+  .centrado-videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.margin-videos{
+    margin: 20px;
+}
   
   * {
     margin: 0%;
     padding: 0%;
+    
   }
   
   html {
