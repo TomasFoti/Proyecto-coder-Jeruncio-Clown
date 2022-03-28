@@ -1,0 +1,154 @@
+.footer {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background-color: $bordo;
+  color: $blanco;
+  padding: 2rem 15rem 3rem;
+  &__conversemos {
+    &__titulo {
+      &__texto {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+    &__parrafo {
+      &__texto {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+    &__parrafo2 {
+      &__texto {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 700;
+      }
+    }
+    &__tituloRedes {
+      &__texto {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+    &__redes {
+      display: flex;
+      justify-content: space-between;
+
+      &__links {
+        background-color: $amarillo-oscuro;
+        border-radius: 3rem;
+        padding: 1rem;
+        display: flex;
+        text-decoration: none;
+
+        &__img {
+          color: $blanco;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  &__formIndex {
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+    &__nombre {
+      &__label {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+      &__input {
+        font-size: 1.8rem;
+        height: 4rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+    &__email {
+      &__label {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+      &__input {
+        height: 4rem;
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+    &__telefono {
+      &__label {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+      &__input {
+        height: 4rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+        font-size: 1.8rem;
+      }
+    }
+    &__pregunta {
+      &__texto {
+        font-size: 2rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+    &__optionEmail {
+      display: flex;
+      align-items: center;
+      margin-left: 1.2rem;
+      &__label {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+    &__optionTelefono {
+      display: flex;
+      align-items: center;
+
+      &__label {
+        font-size: 1.8rem;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+      }
+    }
+
+    &__comentarios {
+      &__input {
+        font-family: $fontWorkSans;
+        font-weight: 400;
+        font-size: 4rem;
+      }
+    }
+
+    &__botonSubmit {
+      display: flex;
+      justify-content: flex-end;
+      &__boton {
+        width: 20rem;
+        height: 4rem;
+        background-color: $amarillo;
+        border-radius: 0.5rem;
+        border: none;
+        font-family: $fontWorkSans;
+        font-weight: 400;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+input[type="radio"] {
+  border: 0.2rem solid $amarillo;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: transparent;
+  margin-right: 1.5rem;
+}

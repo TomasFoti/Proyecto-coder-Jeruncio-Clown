@@ -1,0 +1,53 @@
+// .faceDegreed {
+//   background-image: linear-gradient($rosa, transparent);
+// }
+.headerContacto {
+  background-image: url(../../imagenes/portada_contacto.png);
+  height: 88rem;
+  background-size: cover;
+  position: relative;
+
+  &__row1 {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    width: 100%;
+    &__logo {
+      font-size: 1.5rem;
+      padding: 0 1rem;
+      display: flex;
+      align-items: center;
+    }
+
+    &__navBar {
+      display: flex;
+      justify-content: space-between;
+      width: 60rem;
+      padding-right: 15rem;
+
+      &__boton {
+        border: none;
+        background-color: transparent;
+        &--text {
+          color: $amarillo;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 1.3rem;
+          font-family: $fontWorkSans;
+        }
+      }
+    }
+  }
+  &__row2 {
+    position: absolute;
+    top: 90%;
+    right: 15%;
+    &__text {
+      font-family: $fontWorkSans;
+      font-weight: 900;
+      font-size: 4rem;
+      line-height: 4.8rem;
+      color: #121212;
+    }
+  }
+}

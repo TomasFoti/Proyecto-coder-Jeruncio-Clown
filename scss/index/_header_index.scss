@@ -1,0 +1,80 @@
+.header {
+  // width: 100%;
+  height: max-content;
+  position: relative;
+  &__carrousel {
+    z-index: -99;
+    // overflow: hidden;
+    &__imgs {
+      &__img {
+        width: 100%;
+      }
+    }
+  }
+  &__row1 {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    &__logo {
+      font-size: 1.5rem;
+      padding: 0 1rem;
+      display: flex;
+      align-items: center;
+    }
+
+    &__navBar {
+      display: flex;
+      justify-content: space-between;
+      width: 60rem;
+      padding-right: 15rem;
+
+      &__boton {
+        border: none;
+        background-color: transparent;
+        &--text {
+          color: $amarillo;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 1.3rem;
+          font-family: $fontWorkSans;
+        }
+      }
+    }
+  }
+  &__row2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 65rem;
+    left: 15rem;
+    &__presentacion {
+      display: flex;
+      flex-direction: column;
+      // margin-bottom: 20rem;
+
+      &__titulo {
+        font-size: 4rem;
+        font-weight: 700;
+        color: $blanco;
+        font-family: $fontWorkSans;
+      }
+      &__boton {
+        padding: 0.5rem 6.1rem;
+        background-color: $amarillo;
+        border-radius: 0.5rem;
+        border: none;
+        &--text {
+          font-family: $fontWorkSans;
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: black;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
