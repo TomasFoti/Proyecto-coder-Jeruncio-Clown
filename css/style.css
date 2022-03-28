@@ -49,10 +49,14 @@
         padding: 0.5rem 6.1rem;
         background-color: #f8cf57;
         border-radius: 0.5rem;
-        border: none;
-        font-family: "Work Sans", sans-serif;
-        font-size: 1.3rem;
-        text-transform: uppercase; }
+        border: none; }
+        .header__row2__presentacion__boton--text {
+          font-family: "Work Sans", sans-serif;
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: black;
+          font-weight: 400; }
 
 .main__separadorEspectaculos {
   margin: 2rem 0; }
@@ -491,12 +495,13 @@ input[type="radio"][id="flexRadioDefault4"] {
   margin-bottom: 30px; }
 
 .margin-parrafos-top {
-  margin-right: 50px; }
+  margin-left: auto; }
   .margin-parrafos-top .parrafos-conoceme {
     font-size: 15px; }
 
 .margin-parrafos-bottom {
-  margin-left: 50px; }
+  margin-left: 50px;
+  background-color: #121212; }
   .margin-parrafos-bottom .parrafos-conoceme {
     font-size: 15px; }
 
@@ -561,22 +566,22 @@ input[type="radio"][id="flexRadioDefault4"] {
 .parrafos-conoceme {
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: -0,02em; }
+  letter-spacing: -0, 02em; }
 
-.margin-parrafos-top {
-  margin-right: auto; }
+.margin-parrafos- {
+  margin-right: 0 !important; }
 
-.margin-parrafos-bottom {
-  margin-left: auto;
+.margin-parrafos {
+  margin-left: 0;
   height: 424px;
   width: 641px; }
-  .margin-parrafos-bottom .h3-conoceme {
+  .margin-parrafos .h3-conoceme {
     font-size: 32px;
     font-family: work sans;
     text-align: center;
     margin-bottom: 40px;
     font-weight: 700; }
-  .margin-parrafos-bottom .h5-conoceme {
+  .margin-parrafos .h5-conoceme {
     font-size: 24px;
     text-align: center;
     margin-bottom: 24px;
@@ -703,7 +708,7 @@ input[type="radio"][id="flexRadioDefault4"] {
   width: 310px;
   height: 191px;
   border-radius: 10px;
-  background-color: #FFD5E8;
+  background-color: #ffd5e8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -716,7 +721,7 @@ input[type="radio"][id="flexRadioDefault4"] {
 .habilidades .bloqueEquilibrio {
   width: 310px;
   height: 168px;
-  background: #F8CF57;
+  background: #f8cf57;
   border-radius: 10px;
   display: flex;
   align-items: center;
